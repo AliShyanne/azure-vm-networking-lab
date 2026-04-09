@@ -156,7 +156,7 @@ This setup demonstrates foundational cloud engineering and system administration
 ---
 
 ## Screenshots
-
+## 
 ---
 
 ## Outcome
