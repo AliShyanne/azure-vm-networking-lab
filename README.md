@@ -249,7 +249,7 @@ Details:
 
 This setup reflects real-world Active Directory administration practices, including user management and access control.
 
-### Group Policy Management – OU Level (
+### Group Policy Management – OU Level (group-policy-management-workstation-ou.PNG)
 
 Configured Group Policy Objects (GPOs) and linked them to specific Organizational Units.
 
@@ -259,7 +259,40 @@ Details:
 - Enabled centralized policy application  
 
 This allows administrators to enforce configurations and security settings across targeted systems.
+
+### Group Policy Configuration – Control Panel Restrictions (group-policy-control-panel-restrictions.PNG)
+
+Configured Group Policy settings to restrict user access to system settings.
+
+Details:
+- Navigated to: User Configuration → Administrative Templates → Control Panel  
+- Enabled policies to limit access to Control Panel and PC settings  
+- Prevented users from modifying system configurations  
+
+This demonstrates centralized management and enforcement of security policies using Group Policy.
+
+### Domain User Login (domain-user-login.PNG)
+
+Tested domain user authentication by logging into the system with a domain account.
+
+Details:
+- Logged in using Active Directory user credentials  
+- Verified domain connectivity  
+- Confirmed successful authentication  
+
+This validates that users can access the system through centralized directory services.
+
+### Group Policy Enforcement Test (rdp-gpo-restriction-test.PNG)
+
+Verified that Group Policy restrictions were successfully applied to domain users.
+
+Details:
+- Logged in as a standard domain user  
+- Attempted to access restricted system settings  
+- Confirmed that restrictions were enforced  
+
+This demonstrates successful implementation and enforcement of Group Policy configurations.
 ---
 
 ## Outcome
-Built and validated a cloud-based virtual machine environment that mirrors real-world infrastructure, demonstrating the ability to deploy, secure, and manage systems in Microsoft Azure
+Built and validated a cloud-based virtual machine environment that mirrors real-world infrastructure, demonstrating the ability to deploy, secure, and manage systems in Microsoft Azure.
