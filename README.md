@@ -42,34 +42,34 @@ The environment consists of:
 
 ## Implementation Process
 
-### ### 1. Resource Group Creation
+### 1. Resource Group Creation
 - Created a resource group to organize and manage all Azure resources  
 - Ensures centralized management and easier cleanup  
 
 ---
 
-### ### 2. Virtual Network Setup
+### 2. Virtual Network Setup
 - Configured a Virtual Network (VNet)  
 - Defined IP address space for internal communication  
 - Created subnet for VM placement  
 
 ---
 
-### ### 3. Virtual Machine Deployment
+### 3. Virtual Machine Deployment
 - Deployed a Windows Server VM  
 - Selected region, size, and OS image  
 - Configured admin credentials  
 
 ---
 
-### ### 4. Networking Configuration
+### 4. Networking Configuration
 - Assigned Public IP for remote access  
 - Connected VM to the VNet and subnet  
 - Attached Network Security Group  
 
 ---
 
-### ### 5. Network Security Group (NSG)
+### 5. Network Security Group (NSG)
 Configured inbound rules:
 
 - Allowed RDP (Port 3389) for remote access  
@@ -77,13 +77,13 @@ Configured inbound rules:
 
 ---
 
-### ### 6. Remote Access (RDP)
+### 6. Remote Access (RDP)
 - Connected to VM using Remote Desktop Protocol  
 - Verified successful login and system access  
 
 ---
 
-### ### 7. System Configuration
+### 7. System Configuration
 Inside the VM:
 - Verified network connectivity  
 - Explored system settings and server environment  
@@ -103,15 +103,15 @@ Inside the VM:
 
 ## Key Configurations
 
-### ### Virtual Network
+### Virtual Network
 - Defined IP address space  
 - Created subnet for isolation  
 
-### ### Virtual Machine
+### Virtual Machine
 - Windows Server deployment  
 - Assigned public and private IP  
 
-### ### Security
+### Security
 - NSG rules for controlled access  
 - Restricted traffic to required ports only  
 
@@ -192,7 +192,7 @@ Details:
 
 This represents the baseline system state before configuring roles, services, and domain infrastructure.
 
-### Virtual Machine System Verification ( azure-vm-system--verification.PNG )
+### Virtual Machine System Verification ( azure-vm-system-verification.PNG )
 
 Verified system configuration and environment details within the virtual machine.
 
@@ -271,7 +271,7 @@ Details:
 
 This demonstrates centralized management and enforcement of security policies using Group Policy.
 
-### Domain User Login (domain-user-login.PNG)
+### Domain User Login (domain-user-login-rdp.PNG)
 
 Tested domain user authentication by logging into the system with a domain account.
 
