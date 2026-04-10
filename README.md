@@ -203,6 +203,62 @@ Details:
 
 This step ensures the virtual machine is properly configured before proceeding with Active Directory deployment.
 
+### Active Directory Domain Services (AD DS) Installation (active-directory-role-installation.PNG)
+
+Installed the Active Directory Domain Services role on the Windows Server.
+
+Details:
+- Used Server Manager → Add Roles and Features Wizard  
+- Selected Active Directory Domain Services (AD DS)  
+- Included required management tools (Group Policy Management, AD tools)  
+- Prepared server for domain controller promotion  
+
+This step establishes the foundation for centralized identity and access management within the environment.
+
+### Active Directory Domain Deployment (active-directory-domain-deployment.PNG)
+
+Configured the server as a domain controller and created a new Active Directory forest.
+
+Details:
+- Promoted server to domain controller  
+- Created new forest (e.g., lab.local)  
+- Configured domain services and DNS integration  
+
+This step establishes centralized authentication and directory services within the environment.
+
+### Active Directory Organizational Unit Structure (active-directory-ou-structure-initial.PNG)
+
+Created and organized Organizational Units (OUs) to reflect a structured business environment.
+
+Details:
+- Created OUs such as HR, IT, Sales, Support, and Workstations  
+- Established logical separation of departments  
+- Prepared structure for user and policy management  
+
+This enables efficient administration and targeted policy application across the organization.
+
+### Active Directory – Users, Groups, and Organizational Units (active-directory-users-groups-full-view.PNG)
+
+Configured and organized Active Directory with users, groups, and OUs to simulate a real business environment.
+
+Details:
+- Created multiple Organizational Units (HR, IT, Sales, Support, Workstations)  
+- Added user accounts within respective departments  
+- Created security groups for role-based access control  
+- Organized resources following a structured hierarchy  
+
+This setup reflects real-world Active Directory administration practices, including user management and access control.
+
+### Group Policy Management – OU Level (
+
+Configured Group Policy Objects (GPOs) and linked them to specific Organizational Units.
+
+Details:
+- Created a GPO for workstation management  
+- Linked policy to the Workstations OU  
+- Enabled centralized policy application  
+
+This allows administrators to enforce configurations and security settings across targeted systems.
 ---
 
 ## Outcome
