@@ -157,7 +157,7 @@ This setup demonstrates foundational cloud engineering and system administration
 
 ## Screenshots
 
-### Azure Virtual Machine – Configuration Details ( azure-virtual-machine-overview.PNG )
+### Azure Virtual Machine – Configuration Details ( azure-vm-details-overview.PNG )
 
 Detailed view of the deployed virtual machine within Microsoft Azure.
 
