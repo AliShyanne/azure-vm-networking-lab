@@ -156,8 +156,54 @@ This setup demonstrates foundational cloud engineering and system administration
 ---
 
 ## Screenshots
-## 
+
+### Azure Virtual Machine – Configuration Details ( azure-virtual-machine-overview.PNG )
+
+Detailed view of the deployed virtual machine within Microsoft Azure.
+
+Key details:
+- Virtual Machine: vm-network-lan  
+- Operating System: Windows Server 2022 Datacenter (Azure Edition)  
+- Public and private IP addresses assigned  
+- Connected to a virtual network (VNet) and subnet  
+- VM size and resource allocation displayed
+
+This confirms successful deployment and configuration of cloud infrastructure used for the Active Directory environment.
+
+### Windows Server Initial Login ( windows-server-first-login.PNG )
+
+Initial login to the Windows Server virtual machine after deployment.
+
+Details:
+- First access to the server via remote connection  
+- Default desktop environment before configuration  
+- Network discovery prompt indicating fresh system setup  
+
+This represents the starting point before configuring server roles, Active Directory, and system policies.
+
+### Windows Server – Initial Configuration State ( windows-server-manager-initial.PNG )
+
+Initial view of Windows Server Manager before full configuration.
+
+Details:
+- Server Manager dashboard prior to full role configuration  
+- Indicators showing services and roles not fully configured  
+- Starting point before Active Directory Domain Services deployment  
+
+This represents the baseline system state before configuring roles, services, and domain infrastructure.
+
+### Virtual Machine System Verification ( azure-vm-system--verification.PNG )
+
+Verified system configuration and environment details within the virtual machine.
+
+Details:
+- Confirmed operating system and system specifications  
+- Validated server environment readiness  
+- Ensured proper setup before installing server roles  
+
+This step ensures the virtual machine is properly configured before proceeding with Active Directory deployment.
+
 ---
 
 ## Outcome
-Built and validated a cloud-based virtual machine environment that mirrors real-world infrastructure, demonstrating the ability to deploy, secure, and manage systems in Microsoft Azur
+Built and validated a cloud-based virtual machine environment that mirrors real-world infrastructure, demonstrating the ability to deploy, secure, and manage systems in Microsoft Azure
