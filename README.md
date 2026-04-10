@@ -249,6 +249,19 @@ Details:
 
 This setup reflects real-world Active Directory administration practices, including user management and access control.
 
+### Client Virtual Machine – Domain-Joined System ( azure-virtual-machine-overview.PNG )
+
+Overview of the client virtual machine connected to the Azure environment.
+
+Details:
+- Windows-based virtual machine joined to the Active Directory domain  
+- Connected to the same Virtual Network (VNet) as the domain controller  
+- Used to simulate an end-user workstation  
+- Receives Group Policy configurations from the domain controller  
+- Used to test domain authentication and policy enforcement  
+
+This system represents a typical user machine in a business environment, demonstrating how domain users interact with centralized services and security policies.
+
 ### Group Policy Management – OU Level (group-policy-management-workstation-ou.PNG)
 
 Configured Group Policy Objects (GPOs) and linked them to specific Organizational Units.
